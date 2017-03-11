@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:paddingBottom="1dp"
+    android:stretchColumns="*" >
+<TableRow>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Share This To:"
+        android:textSize="20dp"
+        android:textColor="@color/lightslategray"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"/>
+
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:weightSum="4">
+    <Button
+        android:id="@+id/pop_wechat"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/wechat"/>
+
+    <Button
+        android:id="@+id/pop_qq"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/qq"/>
+
+    <Button
+        android:id="@+id/pop_qqzone"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/qqzone"/>
+
+    <Button
+        android:id="@+id/pop_weibo"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/weibo"/>
+</TableRow>
+
+    <!--TableRow
+        android:layout_width="match_parent"
+        android:weightSum="4">
+        <TextView
+            android:id="@+id/pop_wechat_text"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:text="WeChat"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/pop_qq_text"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="QQ"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/pop_qqzone_text"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="QQ zone"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/pop_weibo_text"
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Weibo"
+            android:gravity="center"/>
+    </TableRow-->
+</TableLayout>
